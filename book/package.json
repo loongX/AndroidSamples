@@ -1,0 +1,14 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "- [Algorithm-Samples](./Algorithm-Samples) - [Fragment-Samples](./Fragment-Samples) - [Json-Samples](./Json-Samples) - [RecycleView-Samples](./RecycleView-Samples)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-summary": "^1.0.0"
+  }
+}
