@@ -1,5 +1,6 @@
 ### apk
 ```shell
+adb devices #查看连接的设备
 # 安装apk
 adb install apkname #安装apk
 adb install -r

@@ -7,3 +7,4 @@
 distributionUrl=file:///D:/Android/gradle/gradle-4.4-all.zip
 
 必要时，项目顶层的build.gradle文件修改一下，里面的buildscript---dependencies 下的classpath 'com.android.tools.build:gradle:3.5.0'改对应
+
