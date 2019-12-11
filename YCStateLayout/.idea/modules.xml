@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidSamples-YCStateLayout.iml" filepath="$PROJECT_DIR$/AndroidSamples-YCStateLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YCStateLayout.iml" filepath="$PROJECT_DIR$/YCStateLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YCStateLib/YCStateLayout-YCStateLib.iml" filepath="$PROJECT_DIR$/YCStateLib/YCStateLayout-YCStateLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/YCStateLayout-app.iml" filepath="$PROJECT_DIR$/app/YCStateLayout-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YCStateLib/YCStateLib.iml" filepath="$PROJECT_DIR$/YCStateLib/YCStateLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
