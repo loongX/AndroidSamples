@@ -27,6 +27,7 @@ jmethodID midDataCallback;
  * Initializes JNI interface stuff, specifically the info needed to call back into the Java
  * layer when MIDI data is received.
  */
+extern "C"
 JNICALL void Java_com_slzr_ndk_NDKManager_initNative(JNIEnv * env, jobject instance) {
     env->GetJavaVM(&theJvm);
 
