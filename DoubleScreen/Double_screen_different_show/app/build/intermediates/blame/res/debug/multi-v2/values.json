@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\Workspace\\ESF3000N\\QR\\SDK\\Demo\\Double_screen_different_show1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Workspace\\ESF3000N\\QR\\SDK\\Demo\\Double_screen_different_show1\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "125,58,179",
+                        "endColumns": "52,65,52",
+                        "endOffsets": "173,119,227"
+                    },
+                    "to": {
+                        "startLines": "37,38,39",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "811,864,930",
+                        "endColumns": "52,65,52",
+                        "endOffsets": "859,925,978"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Workspace\\ESF3000N\\QR\\SDK\\Demo\\Double_screen_different_show1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "35,36",
+                        "startColumns": "4,4",
+                        "startOffsets": "697,755",
+                        "endColumns": "57,55",
+                        "endOffsets": "750,806"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Workspace\\ESF3000N\\QR\\SDK\\Demo\\Double_screen_different_show1\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "40,47",
+                        "startColumns": "4,4",
+                        "startOffsets": "983,1274",
+                        "endLines": "46,49",
+                        "endColumns": "12,12",
+                        "endOffsets": "1269,1429"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Workspace\\ESF3000N\\QR\\SDK\\Demo\\Double_screen_different_show1\\app\\src\\main\\res\\values\\array.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "91",
+                        "endLines": "35",
+                        "endColumns": "12",
+                        "endOffsets": "760"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "34",
+                        "endColumns": "12",
+                        "endOffsets": "692"
+                    }
+                }
+            ]
+        }
+    ]
+}

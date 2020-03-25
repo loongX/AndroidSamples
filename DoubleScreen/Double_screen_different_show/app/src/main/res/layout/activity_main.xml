@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity" >
+
+    
+     <VideoView
+        android:id="@+id/bbvideoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="xx"
+        android:layout_centerInParent="true" />
+     
+     
+    <LinearLayout
+         android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btn_pass"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="appy"
+            android:text="异显" />
+        <Button android:id="@+id/btn_fail"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="appt"
+            android:text="同现" />
+        <Button android:id="@+id/btn_fail"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="appq"
+            android:text="取消" />
+    </LinearLayout>
+</RelativeLayout>

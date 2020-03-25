@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.slzr.slmanager">
+    <!--    android:sharedUserId="android.uid.system"-->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!--静默安装权限-->
+
+    <uses-permission
+
+        android:name="android.permission.INSTALL_PACKAGES"
+
+        tools:ignore="ProtectedPermissions" />
+
+    <!--应用卸载权限-->
+
+    <uses-permission android:name="permission.REQUEST_INSTALL_PACKAGES" />
+
+    <uses-permission
+
+        android:name="android.permission.DELETE_PACKAGES"
+
+        tools:ignore="ProtectedPermissions" />
+
+    <!--读写外部存储权限-->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--允许装载和卸载文件系统权限-->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--android:permission="app.custom.permission"-->
+
+        <service
+            android:name=".TimeService"
+            android:process=":remote"
+            android:enabled="true"
+            android:exported="true">
+<!--            //三个属性缺一不可-->
+            <intent-filter>
+                <action android:name="android.intent.action.START_TIME_SERVICE" />
+<!--                //action名字自定义,建议是xx.xx.xx形式-->
+            </intent-filter>
+
+        </service>
+
+<!--        安装apk的服务-->
+        <service
+            android:name=".InstallService"
+            android:process=":remote"
+            android:enabled="true"
+            android:exported="true">
+            <!--            //三个属性缺一不可-->
+            <intent-filter>
+                <action android:name="android.intent.action.START_INSTALL_SERVICE" />
+                <!--                //action名字自定义,建议是xx.xx.xx形式-->
+            </intent-filter>
+
+        </service>
+
+        <receiver
+            android:name=".update.InstallResultReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.pm.extra.STATUS"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
